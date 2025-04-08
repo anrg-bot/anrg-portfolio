@@ -58,8 +58,8 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* LOGO */}
-      <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+      {/* CENTER LOGO (Only on large screens) */}
+      <div className="hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
 
       {/* SOCIAL ICONS */}
-      <div className="hidden md:flex gap-4 justify-end w-1/3">
+      <div className="flex gap-4 justify-end w-1/3 lg:justify-end">
         <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <Image src="/resume.png" alt="Resume" width={24} height={24} />
         </Link>
