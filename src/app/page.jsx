@@ -30,7 +30,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-          Welcome to my data-driven portfolio, where analytics meets action. 
+          Welcome to my portfolio, where analytics meets action. 
           With a passion for uncovering insights and building scalable data solutions, 
           I transform raw information into powerful tools that drive smarter business decisions.
           </p>
