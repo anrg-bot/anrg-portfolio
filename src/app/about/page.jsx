@@ -69,7 +69,7 @@ const AboutPage = () => {
           </div>
           
           {/* SKILLS CONTAINER */}
-          <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
+          <div className="flex flex-col gap-8 justify-center" ref={skillRef}>
             {/* SKILL TITLE */}
             <motion.h1
               initial={{ x: "-300px" }}
