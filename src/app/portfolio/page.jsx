@@ -32,7 +32,7 @@ const items = [
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "Writings",
-    desc: "An interactive NBA shot chart visualizer is in the works. Built with Python and D3.js for real-time performance breakdowns.",
+    desc: "A place to etch out ideas, stories, and goals.",
     img: "/wanderer.png", 
     link: "https://thewanderer1.com/2023/09/19/heavy-lies-the-crown/",
   },
