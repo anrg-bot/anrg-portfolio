@@ -45,7 +45,7 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 - Set environment variables
 - Build should trigger automatically after pushing to `main`.
 
-### 3. Custom Domain Setup (e.g., `anrg.pro`)
+### 3. Custom Domain Setup
 
 ## Contact Form Setup
 
