@@ -35,8 +35,6 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 
 ### 3. Add Environment Variables
 
-## Local Development
-
 ## Server Deployment
 
 ### 1. Push to GitHub
