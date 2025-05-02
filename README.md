@@ -7,7 +7,6 @@ A custom-built, animated portfolio site built from scratch using **Next.js**, **
 
 This portfolio showcases my work as a data engineer and analytics professional, featuring custom page transitions, responsive design, interactive elements, and external integrations (e.g., EmailJS).
 
-
 ## Tech Stack
 
 - [Next.js 13+](https://nextjs.org/)
@@ -16,7 +15,6 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 - [EmailJS](https://www.emailjs.com/) (for contact form)
 - [Vercel](https://vercel.com/) (hosting)
 - [Namecheap](https://www.namecheap.com/) (custom domain)
-
 
 ## File Structure
 
@@ -29,7 +27,6 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 └── next.config.mjs     # Next.js config
 ```
 
-
 ## Setup Instructions
 
 ### 1. Create the Repo
@@ -38,9 +35,7 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 
 ### 3. Add Environment Variables
 
-
 ## Local Development
-
 
 ## Deployment (Vercel + Custom Domain)
 
@@ -54,7 +49,6 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 
 ### 3. Custom Domain Setup (e.g., `anrg.pro`)
 
-
 ## Contact Form Setup
 
 Uses [EmailJS](https://emailjs.com) to send form submissions directly to your email.
@@ -63,5 +57,3 @@ Uses [EmailJS](https://emailjs.com) to send form submissions directly to your em
 ## Credits
 
 Inspired by Lama Dev.
-
----
