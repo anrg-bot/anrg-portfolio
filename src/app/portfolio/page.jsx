@@ -7,34 +7,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "PLACEHOLDER",
-    desc: "Project description here.",
-    img: "/",
-    link: "/",
+    title: "Fantasy Football Analytics",
+    desc: "A full-stack pipeline and dashboard modeling 2024 NFL Fantasy Football performance. Built with Snowflake, dbt, and Power BI.",
+    img: "/moneyball.jpg", 
+    link: "https://medium.com/@macha.anrg/from-the-field-to-the-dashboard-engineering-fantasy-football-analytics-5560ff5ddd65", // Replace with your GitHub or dashboard link
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "PLACEHOLDER",
-    desc: "Project description here.",
-    img: "/",
-    link: "/",
+    title: "Capstone project",
+    desc: "AI-Driven Cost Forecasting for DCAMM using XGBoost and ANN to predict capital project costs with Power BI visuals and regression analysis.",
+    img: "/tree.png", 
+    link: "https://github.com/anrg-bot/dcamm-ml-project", 
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "PLACEHOLDER",
-    desc: "Project description here.",
-    img: "/",
-    link: "/",
+    title: "Portfolio Website",
+    desc: "This personal site built using React and Next.js showcases projects, animations, and a clean design—deployed via Vercel.",
+    img: "/portfolio.png", 
+    link: "https://github.com/anrg-bot/anrg-portfolio",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "PLACEHOLDER",
-    desc: "Project description here.",
-    img: "/",
-    link: "/",
+    title: "Writings",
+    desc: "An interactive NBA shot chart visualizer is in the works. Built with Python and D3.js for real-time performance breakdowns.",
+    img: "/wanderer.png", 
+    link: "https://thewanderer1.com/2023/09/19/heavy-lies-the-crown/",
   },
 ];
 
@@ -60,22 +60,27 @@ const PortfolioPage = () => {
           >
             <h2 className="text-2xl font-bold">{item.title}</h2>
 
-            <div className="relative w-full h-48">
+            <div className="relative w-full h-64 overflow-hidden rounded-2x1">
               <Image
                 src={item.img}
                 alt={item.title}
                 fill
-                className="object-cover rounded-md"
+                className="object-contain rounded-2x1"
               />
             </div>
 
             <p>{item.desc}</p>
 
-            <Link href={item.link} className="mt-auto self-end">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-auto self-end"
+            >
               <button className="px-4 py-2 bg-white text-black font-semibold rounded hover:bg-gray-100">
                 See Demo
               </button>
-            </Link>
+            </a>
           </div>
         ))}
       </div>
@@ -107,7 +112,7 @@ const PortfolioPage = () => {
             href="/contact"
             className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
           >
-            Hire Me
+            Say Hello
           </Link>
         </div>
       </div>
