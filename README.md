@@ -37,7 +37,7 @@ This portfolio showcases my work as a data engineer and analytics professional, 
 
 ## Local Development
 
-## Deployment (Vercel + Custom Domain)
+## Server Deployment
 
 ### 1. Push to GitHub
 
