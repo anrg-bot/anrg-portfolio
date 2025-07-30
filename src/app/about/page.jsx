@@ -38,10 +38,10 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            As an Analytics Engineer at Northeastern University and a Master’s student in Data Analytics, I specialize in data engineering, workflow automation, and business intelligence. My background in Actuarial Science & Applied Statistics from Purdue University has strengthened my ability to analyze, optimize, and build scalable data solutions. 
+            My work spans the design and automation of scalable data pipelines, the transformation of raw data into actionable insights, and the development of modern analytics solutions that inform high-impact decisions. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
             </p>
             <p className="text-lg">
-            With hands-on experience that spans both my professional career and my collegiate career, I now excel at building data pipelines, developing interactive dashboards, and conducting deep-dive analytics to uncover insights that drive business outcomes.
+            With a proven track record of delivering measurable outcomes and advocating analytics' significance, I bring a thoughtful and precise approach grounded in technical fluency and business alignment. I have passion for advancing the frontier of data strategy and empowering organizations to become truly data-driven.
             </p>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -217,8 +217,44 @@ const AboutPage = () => {
               {/* EXPERIENCE LIST ITEM 1 */}
               <div className="flex justify-between relative">
                 {/* LEFT */}
-                <div className="w-1/3">
-                  <div className="px-3 py-1 font-semibold text-black text-lg bg-white w-fit rounded text-center">
+                <div className="w-3/5">
+                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
+                    Head of Analytics
+                  </div>
+                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    Opal Align
+                  </div>
+                  <div className="p-3 text-sm italic">
+                    Leading backend data architecture and infrastructure for a healthcare technology platform. 
+                    Built HIPAA-compliant pipelines, integrated third-party data sources, and aligned backend systems with the Next.js frontend to support a seamless MVP launch and product scale-up.
+                  </div>
+                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    2025 – Present
+                  </div>
+                </div>
+
+                {/* CENTER DOT */}
+                <div className="w-1/6 flex justify-center relative">
+                  <div className="absolute top-0 w-5 h-5 rounded-full ring-4 ring-red-400 bg-white z-10"></div>
+                </div>
+
+                {/* RIGHT */}
+                <div className="w-3/5"></div>
+              </div>
+
+              {/* EXPERIENCE LIST ITEM 2 */}
+              <div className="flex justify-between relative">
+                {/* LEFT */}
+                <div className="w-3/5"></div>
+
+                {/* CENTER DOT */}
+                <div className="w-1/6 flex justify-center relative">
+                  <div className="absolute top-2 w-5 h-5 rounded-full ring-4 ring-red-400 bg-white z-10"></div>
+                </div>
+
+                {/* RIGHT */}
+                <div className="w-3/5">
+                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
                     Analytics Engineer
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
@@ -229,23 +265,30 @@ const AboutPage = () => {
                     Collaborated with engineers and analysts to improve data quality, automate pipelines, and deliver clean, analysis-ready datasets.
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
-                    2023 – Present
+                    2023 – 2025
                   </div>
                 </div>
-
-                {/* CENTER DOT */}
-                <div className="w-1/6 flex justify-center relative">
-                  <div className="absolute top-0 w-5 h-5 rounded-full ring-4 ring-red-400 bg-white z-10"></div>
-                </div>
-
-                {/* RIGHT */}
-                <div className="w-1/3"></div>
               </div>
 
-              {/* EXPERIENCE LIST ITEM 2 */}
+              {/* EXPERIENCE LIST ITEM 3 */}
               <div className="flex justify-between relative">
                 {/* LEFT */}
-                <div className="w-1/3"></div>
+                <div className="w-3/5">
+                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
+                    Lead Data Analyst
+                  </div>
+                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    Gray Decision Intelligence
+                  </div>
+                  <div className="p-3 text-sm italic">
+                    Designed custom analytics tools for clients with a focus on financial modeling and program economics. 
+                    Used SQL and Qlik to integrate large datasets and uncover insights. 
+                    Collaborated directly with clients through demos and working sessions.
+                  </div>
+                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    2022 – 2023
+                  </div>
+                </div>
 
                 {/* CENTER DOT */}
                 <div className="w-1/6 flex justify-center relative">
@@ -253,20 +296,7 @@ const AboutPage = () => {
                 </div>
 
                 {/* RIGHT */}
-                <div className="w-1/3">
-                  <div className="px-3 py-1 font-semibold text-black text-lg bg-white w-fit rounded text-center">
-                    Lead Data Analyst
-                  </div>
-                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
-                    Gray Decision Intelligence
-                  </div>
-                  <div className="p-3 text-sm italic">
-                  Designed custom analytics tools for clients with a focus on financial modeling and program economics. Used SQL and Qlik to integrate large datasets and uncover insights. Collaborated directly with clients through demos and working sessions.
-                  </div>
-                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
-                    2022 – 2023
-                  </div>
-                </div>
+                <div className="w-3/5"></div>
               </div>
             </div>
           </motion.div>
@@ -303,7 +333,7 @@ const AboutPage = () => {
                 {/* EDUCATION LIST ITEM 1 */}
                 <div className="flex justify-between relative">
                   {/* LEFT */}
-                  <div className="w-1/3">
+                  <div className="w-3/5">
                     <div className="px-3 py-1 font-semibold text-black text-lg w-fit rounded">
                       M.S. Data Analytics
                     </div>
@@ -324,13 +354,13 @@ const AboutPage = () => {
                   </div>
 
                   {/* RIGHT */}
-                  <div className="w-1/3"></div>
+                  <div className="w-3/5"></div>
                 </div>
 
                 {/* EDUCATION LIST ITEM 2 */}
                 <div className="flex justify-between relative">
                   {/* LEFT */}
-                  <div className="w-1/3"></div>
+                  <div className="w-3/5"></div>
 
                   {/* CENTER DOT */}
                   <div className="w-1/6 flex justify-center relative">
@@ -338,7 +368,7 @@ const AboutPage = () => {
                   </div>
 
                   {/* RIGHT */}
-                  <div className="w-1/3">
+                  <div className="w-3/5">
                     <div className="px-3 py-1 font-semibold text-black text-lg w-fit rounded">
                       B.S. Actuarial Science & Applied Statistics
                     </div>
