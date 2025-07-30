@@ -41,7 +41,7 @@ const AboutPage = () => {
             My work spans the design and automation of scalable data pipelines, the transformation of raw data into actionable insights, and the development of modern analytics solutions that inform high-impact decisions. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
             </p>
             <p className="text-lg">
-            With a proven track record of delivering measurable outcomes and advocating analytics' significance, I bring a thoughtful and precise approach grounded in technical fluency and business alignment. I have passion for advancing the frontier of data strategy and empowering organizations to become truly data-driven.
+            With a proven track record of delivering measurable outcomes and advocating the significance of analytics, I bring a thoughtful and precise approach grounded in technical fluency and business alignment. I have passion for advancing the frontier of data strategy and empowering organizations to become truly data-driven.
             </p>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
