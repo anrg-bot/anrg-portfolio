@@ -5,8 +5,6 @@ import Link from "next/link";
 import { useState } from "react";
 import NavLink from "./navLink";
 import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
-
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
@@ -16,7 +14,6 @@ const links = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname(); // track current route
 
   const topVariants = {
     closed: { rotate: 0 },

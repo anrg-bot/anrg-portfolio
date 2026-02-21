@@ -1,7 +1,6 @@
 "use client";
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
-import Image from "next/image";
 import { useRef } from "react";
 
 const AboutPage = () => {
@@ -38,7 +37,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            I lead the strategy, design, and development of OPAL's healthcare SaaS platform to streamline operations and drive measurable impact for provider-led practices. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
+            I lead the strategy, design, and development of OPAL&apos;s healthcare SaaS platform to streamline operations and drive measurable impact for provider-led practices. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
             </p>
             <p className="text-lg">
             With a proven track record of delivering measurable outcomes and advocating the significance of analytics, I bring a thoughtful and precise approach grounded in technical fluency and business alignment. I have passion for advancing the frontier of data strategy and empowering organizations to become truly data-driven.
