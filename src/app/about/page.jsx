@@ -229,7 +229,7 @@ const AboutPage = () => {
                   <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                     OPAL
                   </div>
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-sm italic space-y-2">
                     <p>Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management.</p>
                     <p>Defining and maintaining backend–frontend data contracts to align the platform’s Next.js frontend with backend APIs and analytics pipelines.</p>
                   </div>
