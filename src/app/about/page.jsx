@@ -225,14 +225,13 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-3/5">
                   <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
-                    Head of Analytics
+                    Head of Product
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
-                    Opal Align
+                    OPAL
                   </div>
                   <div className="p-3 text-sm italic">
-                    Leading backend data architecture and infrastructure for a healthcare technology platform. 
-                    Built HIPAA-compliant pipelines, integrated third-party data sources, and aligned backend systems with the Next.js frontend to support a seamless MVP launch and product scale-up.
+                  •	Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management. 
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     2025 – Present
@@ -267,7 +266,7 @@ const AboutPage = () => {
                     Northeastern University
                   </div>
                   <div className="p-3 text-sm italic">
-                    Designed scalable Snowflake data structures and introduced dbt Cloud to modernize data transformation workflows. 
+                    Designed scalable Snowflake data structures and introduced dbt Cloud to modernize data transformation workflows. <br />
                     Collaborated with engineers and analysts to improve data quality, automate pipelines, and deliver clean, analysis-ready datasets.
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
@@ -287,8 +286,8 @@ const AboutPage = () => {
                     Gray Decision Intelligence
                   </div>
                   <div className="p-3 text-sm italic">
-                    Designed custom analytics tools for clients with a focus on financial modeling and program economics. 
-                    Used SQL and Qlik to integrate large datasets and uncover insights. 
+                    Designed custom analytics tools for clients with a focus on financial modeling and program economics. <br />
+                    Used SQL and Qlik to integrate large datasets and uncover insights. <br />
                     Collaborated directly with clients through demos and working sessions.
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
