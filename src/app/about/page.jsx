@@ -223,10 +223,10 @@ const AboutPage = () => {
               <div className="flex justify-between relative">
                 {/* LEFT */}
                 <div className="w-3/5">
-                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
+                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
                     Head of Product
                   </div>
-                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
                     OPAL
                   </div>
                   <div className="p-3 text-sm italic">
@@ -258,10 +258,10 @@ const AboutPage = () => {
 
                 {/* RIGHT */}
                 <div className="w-3/5">
-                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
+                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
                     Analytics Engineer
                   </div>
-                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
                     Northeastern University
                   </div>
                   <div className="p-3 text-sm italic space-y-2">
@@ -278,10 +278,10 @@ const AboutPage = () => {
               <div className="flex justify-between relative">
                 {/* LEFT */}
                 <div className="w-3/5">
-                  <div className="px-3 py-1 font-semibold text-black text-lg bg-gray-100 w-fit rounded text-center">
+                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
                     Lead Data Analyst
                   </div>
-                  <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
                     Gray Decision Intelligence
                   </div>
                   <div className="p-3 text-sm italic space-y-2">
