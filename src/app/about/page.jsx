@@ -339,10 +339,10 @@ const AboutPage = () => {
                 <div className="flex justify-between relative">
                   {/* LEFT */}
                   <div className="w-3/5">
-                    <div className="px-3 py-1 font-semibold text-black text-lg w-fit rounded">
+                    <div className="p-2 pt-0 pb-0 font-semibold text-gray-800 text-lg">
                       M.S. Data Analytics
                     </div>
-                    <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                       Northeastern University
                     </div>
                     <div className="p-3 text-sm italic">
@@ -374,10 +374,10 @@ const AboutPage = () => {
 
                   {/* RIGHT */}
                   <div className="w-3/5">
-                    <div className="px-3 py-1 font-semibold text-black text-lg w-fit rounded">
+                    <div className="p-2 pt-0 pb-0 font-semibold text-gray-800 text-lg">
                       B.S. Actuarial Science & Applied Statistics
                     </div>
-                    <div className="p-2 text-sm font-semibold text-gray-800 w-full">
+                    <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                       Purdue University
                     </div>
                     <div className="p-3 text-sm italic">
