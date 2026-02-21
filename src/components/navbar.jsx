@@ -66,7 +66,7 @@ const Navbar = () => {
         <Link href="https://github.com/anrg-bot" target="_blank" rel="noopener noreferrer">
           <Image src="/github.png" alt="GitHub" width={24} height={24} />
         </Link>
-        <Link href="https://www.linkedin.com/in/am-16" target="_blank" rel="noopener noreferrer">
+        <Link href="https://www.linkedin.com/in/anrg-macha" target="_blank" rel="noopener noreferrer">
           <Image src="/linkedin.png" alt="LinkedIn" width={24} height={24} />
         </Link>
       </div>

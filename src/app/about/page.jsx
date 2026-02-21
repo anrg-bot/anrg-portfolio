@@ -38,7 +38,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            My work spans the design and automation of scalable data pipelines, the transformation of raw data into actionable insights, and the development of modern analytics solutions that inform high-impact decisions. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
+            I lead the strategy, design, and development of OPAL's healthcare SaaS platform to streamline operations and drive measurable impact for provider-led practices. I’ve gained a strong command over my technical toolkit that includes Azure services, dbt Cloud, Snowflake, Alteryx, Qlik, PowerBI, and Tableau—leveraging them to solve complex business problems across industries. 
             </p>
             <p className="text-lg">
             With a proven track record of delivering measurable outcomes and advocating the significance of analytics, I bring a thoughtful and precise approach grounded in technical fluency and business alignment. I have passion for advancing the frontier of data strategy and empowering organizations to become truly data-driven.
@@ -231,7 +231,7 @@ const AboutPage = () => {
                     OPAL
                   </div>
                   <div className="p-3 text-sm italic">
-                  •	Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management. 
+                    Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management. 
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     2025 – Present
@@ -265,9 +265,9 @@ const AboutPage = () => {
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     Northeastern University
                   </div>
-                  <div className="p-3 text-sm italic">
-                    Designed scalable Snowflake data structures and introduced dbt Cloud to modernize data transformation workflows. <br />
-                    Collaborated with engineers and analysts to improve data quality, automate pipelines, and deliver clean, analysis-ready datasets.
+                  <div className="p-3 text-sm italic space-y-2">
+                    <p>Designed scalable Snowflake data structures and introduced dbt Cloud to modernize data transformation workflows.</p>
+                    <p>Collaborated with engineers and analysts to improve data quality, automate pipelines, and deliver clean, analysis-ready datasets.</p>
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     2023 – 2025
@@ -285,10 +285,10 @@ const AboutPage = () => {
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     Gray Decision Intelligence
                   </div>
-                  <div className="p-3 text-sm italic">
-                    Designed custom analytics tools for clients with a focus on financial modeling and program economics. <br />
-                    Used SQL and Qlik to integrate large datasets and uncover insights. <br />
-                    Collaborated directly with clients through demos and working sessions.
+                  <div className="p-3 text-sm italic space-y-2">
+                    <p>Designed custom analytics tools for clients with a focus on financial modeling and program economics.</p>
+                    <p>Used SQL and Qlik to integrate large datasets and uncover insights.</p>
+                    <p>Collaborated directly with clients through demos and working sessions.</p>
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     2022 – 2023
