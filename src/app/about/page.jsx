@@ -223,14 +223,15 @@ const AboutPage = () => {
               <div className="flex justify-between relative">
                 {/* LEFT */}
                 <div className="w-3/5">
-                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
+                  <div className="p-2 pt-0 pb-0 font-semibold text-gray-800 text-lg">
                     Head of Product
                   </div>
-                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
+                  <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                     OPAL
                   </div>
                   <div className="p-3 text-sm italic">
-                    Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management. 
+                    <p>Overseeing the end-to-end lifecycle of product feature design—from MVP to UAT and production—through agile sprint planning, QA oversight, and release management.</p>
+                    <p>Defining and maintaining backend–frontend data contracts to align the platform’s Next.js frontend with backend APIs and analytics pipelines.</p>
                   </div>
                   <div className="p-2 text-sm font-semibold text-gray-800 w-full">
                     2025 – Present
@@ -258,10 +259,10 @@ const AboutPage = () => {
 
                 {/* RIGHT */}
                 <div className="w-3/5">
-                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
+                  <div className="p-2 pt-0 pb-0 font-semibold text-gray-800 text-lg">
                     Analytics Engineer
                   </div>
-                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
+                  <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                     Northeastern University
                   </div>
                   <div className="p-3 text-sm italic space-y-2">
@@ -278,10 +279,10 @@ const AboutPage = () => {
               <div className="flex justify-between relative">
                 {/* LEFT */}
                 <div className="w-3/5">
-                  <div className="p-2 pt-0 font-semibold text-gray-800 text-lg">
+                  <div className="p-2 pt-0 pb-0 font-semibold text-gray-800 text-lg">
                     Lead Data Analyst
                   </div>
-                  <div className="p-2 text-base font-semibold text-gray-800 w-full">
+                  <div className="p-2 pt-0 text-sm font-semibold text-gray-800 w-full">
                     Gray Decision Intelligence
                   </div>
                   <div className="p-3 text-sm italic space-y-2">
